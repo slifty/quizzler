@@ -1,0 +1,783 @@
+/* 
+*	Article styles for Boston.com 
+*	in Methode
+* = = = = = = = = = = = = = = = = = = = =
+*/
+#articleGraphs{
+	clear:both;	
+}
+/* PRINTER FRIENDLY INITIAL SETUP STYLES */
+#container #containerBorder #headerPF {display:none;}
+/* GENERIC STYLES */
+.utility {font:11px arial; color:#272727; display:block;}
+.signer { font-style: italic; }
+#Col1 .caption {font:12px arial; color:#464646; line-height:12px;padding-bottom:4px;}
+.leadOut {text-align:right;background-repeat:no-repeat; background-position:center right;text-transform:uppercase;}
+.leadOut a {padding-right:7px;font-size:10px;} 
+.leadOut a:hover {border-bottom: none;}
+body#article .leadIn {font-family:arial;}
+.form-button {background-image:url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/button_stretch.gif); height:21px; display:block; color:#fff; font-weight:bold; width:37px; border:0;float:left;line-height:29px;padding:0 2px 2px 0;}
+.form-button:link {color: #fff;}
+.form-button:hover {background-image:url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/button_stretch_hover.gif); background-repeat:repeat-x;}
+#articleGraphs.hidePages DIV{display:none;}
+#articleGraphs.hidePages DIV.showPage,#articleGraphs.hidePages DIV.showPage DIV{display:block;}
+#article #pagination {display:none;}
+#article #pagination.show{display:block;padding:0 10px 10px 0;}
+#article #pagination.show .paginationI{float:right;}
+#article #prev,#article #next{font-weight:bold;}
+#article #prev{padding-right:6px;}
+#article #next{padding-left:6px;}
+#article #links A{padding:0 4px;}
+#article #prev A{padding-left:4px;}#article #next A{padding-right:4px;}
+#article #links .active{text-decoration:none;cursor:default;color:#272727;font-weight:bold;}
+#article .pginfo{font-weight:bold;color:#666;float:left;padding-right:6px;}
+#article .continued{padding-left:5px;}
+#pfHeader {display:none;}
+/* ARTICLE COLUMN ONE STYLES */
+/* Generic Article Styles */
+.article #Col1 h3 {margin:8px 0;}
+/* Pre-article tools */
+.article #Col1 #headTools .overline { 	margin-bottom:4px; }
+.article #Col1 #headTools h1 {font:bold 22px arial; line-height:23px;margin:0 0 5px 0; color:#000;}
+.article #Col1 #headTools h2 {font:15px arial; line-height:17px;margin:0 0 10px 0; color:#000}
+.article #Col1 #headTools #tools {float:right;color:#464646;}
+.article #Col1 #headTools #tools img {height:4px;width:4px;padding:0;margin:0 3px;border:1px solid black;}
+.article #Col1 #headTools #tools .listPipe {padding:0;margin:0 5px;color:#464646;}
+.article #Col1 #headTools .utility { line-height: 17px;} 
+.article #Col1 #headTools .utility  #tools { line-height: 17px; width: 100%; display: block; clear: both;   color:#464646;  margin: 10px 0 10px 0; padding:  0 ;    position: relative;   }
+.article #Col1 #headTools  #tools ul {float:left; margin: 0; padding: 0;     } 
+.article #Col1 #headTools  #tools ul li {     vertical-align:middle; display:block; float: left;  list-style: none; padding: 0; margin: 0;  text-align:right;    }
+#shareEmail {line-height:17px;    background: url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icon_blue_email.gif)   left center  no-repeat;  }
+#shareSingle {line-height:17px;  background: url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icon_blue_single.gif) left center no-repeat; }
+#sharePrint {
+  background: none;
+  line-height: 17px;
+}
+#sharePrint a {
+  background: url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icon_blue_printer_gray.gif) no-repeat 0 50%;
+  color: #afafaf;
+  padding-top: 2px;
+}
+#sharePrint .print-js {
+  background: url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icon_blue_printer.gif) no-repeat 0 50%;
+  color: #2851A2;
+  padding-top: 2px;
+}
+#shareEmail a, #sharePrint a, #shareSingle a { padding-left: 20px; }
+#shareEmail a.etaf {padding:0 0 0 20px;;}
+#yahooBuzzBadge-form a span span  {  margin-top: -2px!important;   } 
+#toolsShareThis {  float: left; width: 75px;        }
+li#toolsShareThis span { padding:0 0 5px 0; margin: 0;  } 
+.article #Col1 #headTools .articleTextsize { float:right; }
+.article #Col1 #headTools #tools .plus {width:5px;height:5px;padding:0 4px; font:14px arial;color:#fff;font-weight:bold;margin:0 0 0 2px;background-color:#3f5f9c;cursor:pointer;}
+.article #Col1 #headTools #tools .plus:hover {background-color:#203C73;}
+.article #Col1 #headTools #tools .minus {width:5px;height:5px;padding:0 4px; font:14px arial;color:#fff;font-weight:bold;margin:0 2px 0 5px;background-color:#3f5f9c;cursor:pointer;}
+.article #Col1 #headTools #tools .minus:hover {background-color:#203C73;}
+/* Related Image - Generic 
+#relatedPhoto .lightBoxing span.utility {background-color:#464646; position:absolute;}
+#relatedPhoto .lightBoxing span.utility a {color:#fff;}
+#relatedPhoto .lightBoxing span.utility a:hover {color:#fff;font-weight:600;}
+.article #Col1 #relatedPhoto .utility {opacity: 0.8; position:absolute; padding:4px;left:1px; display:inline;bottom:1px;text-align:-moz-center;
+width:58px;text-align:center;}
+.article #Col1 #relatedPhoto .lightBoxing {position:relative;} */
+/* Related Image - Large */
+.article #headTools #relatedPhoto img {width:529px;}
+.article #headTools #relatedPhoto {width:529px;}
+.article #headTools #relatedPhoto {margin-top:10px;}
+.article #headTools #relatedPhoto .source {float:right;}
+.article #headTools #relatedPhoto .caption {display:block; clear:right;}
+/* Related Image - Small */
+.article #Col1 .relatedBox #relatedPhoto {width:189px;overflow:hidden;margin-bottom:10px;position:relative;} 
+.article #Col1 .relatedBox #relatedPhoto .utility {float:right;display:block;padding-bottom:5px;margin:0;}
+.article #Col1 .relatedBox #relatedPhoto .source {width:189px;display:block;padding:0;margin:0 0 5px 0;}
+.article #Col1 .relatedBox #relatedPhoto img {overflow:hidden;margin:0;padding:0;}
+/* Left Related Box Styles */
+.article #Col1 #relatedContent {width:189px;float:left;margin:0 21px 10px 0;padding:0;overflow:hidden;}
+.article #Col1 #relatedContent ul {font-family: arial, helvetica, sans-serif; font-size:12px;} 
+.article #Col1 #relatedCtr {width:189px; text-align:center;}
+.article #Col1 .relatedBox {width:189px;overflow:hidden;border-top:4px solid #b7dcff;margin-top:10px;}
+.article #Col1 .relatedBox ul {line-height:20px; margin:5px 0 0 0; padding: 0 0 0 15px; font-size:11px; list-style:disc;}
+.article #Col1 .relatedBox ul li {padding-bottom:4px;}
+.article #Col1 .relatedBox a {font-weight:bold;}
+.article #Col1 #relatedGraphic {width:189px;overflow:hidden;border-bottom:1px dotted #3f5f9c;padding-bottom:5px;}
+#relatedContent .relatedBox h3 {font-size:15px; margin:8px 0; display:block; line-height:17px; font-family: arial, helvetica, sans-serif;}
+#relatedContent .relatedBox ul {font-size: 12px;};
+/*.relatedBox dl dd {clear:none}*/
+/* Inform Box Styles*/
+.article #Col1 #informBox {width:189px;}
+.article #Col1 #informBox li#informPowered {border:0px;margin:0px;float:left;list-style-type:none;}
+.article #Col1 #informBox li#informPowered img {border:0px;margin:0px;padding-right:10px;float:right;}
+/* ARTICLE FOOTER */
+/* Generic */
+.article #Col1 #articleFootTools {padding:0;margin:20px 0 0 0;}
+.article #Col1 #articleFootAd {margin: 30px 0;}
+/* Page numbers - PrevNext buttons */
+#pagination ul#paginationI {margin: 30px 0 20px 0;float:right;list-style-type:none;}
+#pagination ul#paginationI li {border:1px solid #efefef; background:#fff;color:#3f5f9c;font:bold 12px arial;text-align:center;text-decoration:none;padding:1px 8px;margin:0 1px;display:inline;}
+#pagination ul#paginationI li.number {width:auto;height:14px;}
+#pagination ul#paginationI li.prevNext {font-weight:normal;width:44px;height:14px;}
+#pagination ul#paginationI li a {text-decoration:none;}
+#pagination ul#paginationI li:hover {text-decoration:none;border-color:#3f5f9c;color:#fff;}
+#pagination ul#paginationI li.numberActive {background:#3f5f9c;}
+#pagination ul#paginationI li.numberActive a {text-decoration:none;color:#fff;}
+#pagination ul#paginationI li.numberActive:hover {border:solid #fff 1px;}
+#pagination ul#paginationI li.last {margin-right:6px;}
+#pagination .arrowRight {margin-left:5px;width:3px;height:5px;text-align:right; background-image: url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/blue_arrow.gif); background-repeat:no-repeat; background-position:center right;}
+#pagination .arrowLeft {margin-right:5px;width:3px;height:5px;text-align:left; background-image: url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/left_blue_arrow.jpg); background-repeat:no-repeat; background-position:center left;}
+#pagination ul#paginationI li.hide {display:none;}
+#articleNextIn {margin: 0 10px 20px 0;float:right;}
+/* Footer tools widget */
+#footToolsNav li {cursor:pointer;}
+#footToolsNav span {cursor:pointer;}
+ul#footToolsNav {width:509px;height:52px;padding:0;margin:0;list-style-type:none;display:inline;}
+ul#footToolsNav li {float:left;}
+#footToolsMain {width:509px;border:0px;position:relative;background-color:#ebf4fb;}
+#footToolsNav #toolsNavPrint, #footToolsNav #toolsNavReprints, #footToolsNav #toolsNavShare {width:68px;height:52px;border:1px dotted #3f5f9c;border-right:none;display:block;}
+#footToolsNav #toolsNavComments, #footToolsNav #toolsNavEmail {width:68px;height:52px;border:1px dotted #3f5f9c;border-right:none;display:none;}
+#footToolsNav #toolsNavSingle {width:74px;height:52px;border:1px dotted #3f5f9c;border-right:none;display:block;}
+#footToolsNav #toolsNavPrintOn, #footToolsNav #toolsNavReprintsOn, #footToolsNav #toolsNavShareOn, #footToolsNav #toolsNavCommentsOn {background-color:#ebf4fb;width:68px;height:52px;border:1px dotted #3f5f9c;border-right:none;border-bottom:none;display:none;}
+#footToolsNav #toolsNavSingleOn {background-color:#ebf4fb;width:74px;height:52px;border:1px dotted #3f5f9c;border-right:none;border-bottom:none;display:none;}
+#footToolsNav #toolsNavEmailOn {background-color:#ebf4fb;width:68px;height:52px;border:1px dotted #3f5f9c;border-right:none;border-bottom:1px solid #ebf4fb;display:block;}
+#footToolsNav #toolsNavShare, #footToolsNav #toolsNavShareOn {border-right: 1px dotted #3f5f9c;}
+#listShare  {list-style-type:none;display:none;padding:30px 5px;margin:0;}
+#listShare li {float:left;padding:0;margin: 0 5px;text-align:center;}
+#listShare li img {position:relative;top:3px;padding:0 5px;}
+#listShare li.deliciousBrand {font-size:10px;position:relative;top:5px;left:-2px;padding:0;margin:0;}
+#listShare a:hover {text-decoration:none;border-bottom:none;}
+#toolsShare {width:509px;text-align:center;}
+#footToolsNav #toolsNavBlank {width:159px;height:53px;border:none;border-bottom:1px dotted #3f5f9c;position:relative;bottom:0;right:1px;}
+.noreprints #footToolsNav #toolsNavBlank {width: 227px}
+#footToolsMain #toolsEmail {display:block;}
+#footToolsMain #toolsEmail .row {clear: both; padding-top: 10px;}
+#footToolsMain #toolsEmail #emailForm {width: 489px;text-align: left; padding:0 10px;}
+#footToolsMain textarea {width: 489px;}
+/* Footer article tools (Nav Text) */
+#footToolsNav {text-align:center;}
+#footToolsNav .navImage {padding-top:8px;display:block;} a:hover {border-bottom:none;}
+#footToolsNav .navTextE  {padding-top:14px;}
+#footToolsNav .navTextP  {padding-top:9px;}
+#footToolsNav .navTextS  {padding-top:10px;}
+#footToolsNav .navTextR  {padding-top:8px;}
+#footToolsNav .navTextSh {padding-top:12px;}
+#footToolsNav .navTextC  {padding-top:9px;}
+#footToolsNav .navTextE, #footToolsNav .navTextP, #footToolsNav .navTextS, #footToolsNav .navTextR, #footToolsNav .navTextSh, #footToolsNav .navTextC {padding-bottom:2px;display:block;font-size:11px;font-weight:bold;color:#3f5f9c;}
+/* Footer article tools - Email Form */
+#toolsEmail #emailForm input#sendTo {width: 489px;}
+#toolsEmail #emailForm input#fromName {width: 240px;}
+#toolsEmail #emailForm input#fromEmail {width: 240px;position:relative;right:-6px;}
+#toolsEmail {width:491px;text-align:left;padding:9px;border:1px dotted #3f5f9c;border-top:none}
+#toolsEmail .etafForm {width:489px;padding:0;margin:0;}
+#toolsEmail .etafForm #eCol1 {float:left;width:214px;padding-right:10px;border-right:dotted 1px #3F5F9C;}
+#toolsEmail .etafForm #eCol2 {float:left;position:relative;width:254px;padding-left:10px;}
+#toolsEmail h3 {color:#000;font-family:"Arial Bold";font-size:14px;line-height:16px;text-transform:uppercase;margin:0 0 10px 0;}
+#toolsEmail .formContain {padding:0px;}
+#toolsEmail span.label {color:#272727;font-weight:bold;display:block;}
+#toolsEmail span.explain {font-size:11px;color:#272727;display:block;}
+#toolsEmail span.input {padding-bottom:15px;display:block;}
+#toolsEmail span.input input{border:solid 2px #3F5F9C;width:210px;}
+#toolsEmail span textarea {border:solid 2px #3F5F9C;width:210px;}
+#toolsEmail span.optional {font-size:11px;font-weight:bold;text-transform:none;}
+#toolsEmail span.send {float:right;padding:10px 0;}
+#toolsEmail #eCol2 textarea {width:246px;}
+#toolsEmail span.disclaimer {font-size:11px;text-transform:uppercase;color: #464646;}
+#toolsEmail span.ePriv {color: #272727;font-style:italic;}
+#toolsEmail .form-button {width:auto;margin-right:5px;padding:0 7px;}
+/* Footer article tools - Comments */
+#toolsComments {padding:10px;display:none;}
+#commentForm {text-align:left; padding:0;}
+#commentForm .row {padding-top:10px;}
+#commentForm .commentRow {background-color: #efefef;padding:10px;border:1px dotted #3f5f9c;}
+#commentForm .commenter {font-weight:bold;margin-right:5px;width:20%;}
+#commentForm .comment {margin:0 5px;width:80%;}
+#commentForm textarea {width: 489px;margin-top:10px;}
+#articleMasthead img {float:right;}
+#footToolsNav li {cursor:pointer;}
+#footToolsNav span {cursor:pointer;}
+/* ARTICLE COLUMN TWO STYLES */
+/* Next article */
+.article #Col2 #nextArticleRight {padding:10px;background-color:#ebf4fb;border-left:1px dotted #3f5f9c;line-height:17px;}
+.article #Col2 #nextArticleRight a {font-weight:bold;}
+.article #Col2 #nextArticleRight a.leadOut {padding:0;margin:0;}
+#articleBodyTop {margin:15px 0; font-weight:normal; font-size: 11px; color: #464646; line-height:14px; font-family: Arial,Helvetica,sans-serif;}
+#articleBodyTop .imageVPad {padding-right:10px;}
+#articleBodyImageV td {vertical-align:middle;}
+#articleFootTools #footToolsNav li.hideMe {display:none;}
+.article #Col1 #informBox {display:none;}
+div#articleEmbed {font-family:Arial, Helvetica, sans-serif; display:none;}
+div#articleEmbed #relatedPhoto {font-weight:normal; font-size: 11px; color: #464646; line-height:14px;}
+div#articleGraphs div#articleEmbed {display:none;}
+.crosshead {display: block;  font-family: arial, helvetica, sans-serif; font-weight: bold; font-size: 14px; color: #272727; }
+#articleGraphs p em {font-style: italic;}
+#articleGraphs .copyright { color: #464646; font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 14px; }
+img.storyend {margin-left:4px;}
+div#articleGraphs div#articleEmbed #relatedGlobe p {font-size:12px; line-height:16px; font-family:Arial,Helvetica,sans-serif; margin:5px 0; color:#272727;}
+#relatedGlobe strong {display:block;}
+.article #headTools .imgSimple {margin:15px 0;}
+/*EtaF Overrides*/
+.noemail .etaf, .noemail .etafPipe {display:none;}
+#nextIn {clear:both; text-align: right; font-size:10px; font-family: arial, helvetica, sans-serif; text-transform:uppercase; margin-right:10px;}
+#nextIn a {background-image:url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/blue_arrow.gif); background-position:right center; background-repeat:no-repeat; padding-right:7px; }
+/* Overriding stupid 3rd Parties */
+div#articleGraphs table, div#articleGraphs tr, div#articleGraphs td {width:auto;}
+div#articleHeader table, div#articleHeader tr, div#articleHeader td {width:auto;}
+div#Col2 table, div#Col2 tr, div#Col2 td {width:auto;}
+#pagination ul#paginationI .singlePage {border:none;}
+#pagination ul#paginationI .singlePage:hover {border:none;}
+#shareReprints {background:transparent url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icon_blue_reprints.gif) no-repeat scroll left center; line-height:17px;}
+#shareReprints a {padding-left:20px;}
+#globeSubAd {background-image:url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/globe_subscribe_back.jpg); background-repeat:no-repeat; height:52px; width:539px;font-size:13px; text-align:left; font-family:arial; margin-top:15px; clear:both;}
+#globeSubAd span {padding-top:17px; padding-left:70px; display:block;}
+#globeSubAd a {font-weight:bold;}
+#globeSubAd.redsox {background-image:url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/sox_fanshop.jpg); padding-left:10px;} 
+#globeSubAd.bruins {background-image:url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/bruins_fanshop.jpg);}
+#globeSubAd.celtics {background-image:url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/celtics_fanshop.jpg);}
+#globeSubAd.pats {background-image:url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/pats_fanshop.jpg);}
+/* For article companion ad */
+#bdc_videoCompanionAd {margin:130px 0 0 8px; background-color:#121212; border:4px solid #666; height:292px; display:none; padding: 50px 20px;}
+#bdc_vcaIFrame {margin:0px; padding:0px; width:336px; height:300px;}
+#bdc_bcFlash {min-height:400px;}
+.artVid{width:609px; margin-right:10px; margin-bottom:10px}
+/* Proquest boxes */
+body #article.archived #pagination, body #article.archived #pagination.show {display:none;}
+#proquestBox {border:solid 1px #cfcfcf; padding:10px; background-color:#ededed; font-family: arial, helvetica; line-height:18px;}
+#proquestBox img {display:block;}
+#proquestBox p, #proquestBox .globeSubInner div {font-family: arial, helvetica; font-size:12px; padding:0 5px; text-align:center; line-height:17px; color#333;}
+#proquestBox h3 {margin:0 0 5px 0; padding:0; color:#000; text-transform:uppercase; font-size:14px;}
+#globeSub, #nonSub {width:250px; float:left; background-color:#fff; border:1px solid #cfcfcf; height:226px;}
+#nonSub {float:right;}
+#proquestBox h4 {background-color:#464646; padding:5px; color:#fff; text-transform:uppercase; font-size:12px;}
+#proquestBox h5 {margin:5px; background-color:#3977b5; color:#fff; text-align:center;}
+#proquestBox .globeSubInner p {margin:0; padding:5px 0}
+#proquestBox #globeSub .globeSubInner {padding:5px 10px;}
+#proquestBox #globeSub #subImage {padding-bottom:25px;}
+#proquestBox #nonSub p {text-align:left; margin:5px 10px 0 10px;}
+#proquestBox #nonSub p a {font-weight:bold;}
+body #article.archived .continued {display:none;}
+#proquestBox #nonSub ul {margin:15px 0 15px 10px; padding:0 0 1px 0; display:block; height:36px;}
+#proquestBox #nonSub ul li {display:block; background-color:#3977b5; float:left; width:70px; margin-right:10px; text-align:center; color:#fff; font-size:12px; line-height:18px; padding:2px 0;}
+#proquestBox #nonSub ul li strong {display:block; font-size:16px;}
+#proquestBox #nonSub a.imageLink {clear:both;}
+#proquestBox .globeSubInner img {margin:0 auto; text-align:center;}
+#bdc_shareButtons .db-wrapper span span .db-medium,
+#bdc_shareButtons .db-wrapper span.db-wrapper,
+#bdc_shareButtons .db-wrapper a,
+#bdc_shareButtons .db-wrapper span span span span.db-count,
+#bdc_shareButtons .db-wrapper span span span span.db-copy,
+#bdc_shareButtons .db-wrapper .db-submit .db-count, 
+#bdc_shareButtons .db-wrapper .db-submit .db-copy, 
+#bdc_shareButtons .db-wrapper .db-submit .db-anchor,
+#bdc_shareButtons .db-wrapper span span .db-medium .db-anchor,
+#bdc_shareButtons .db-wrapper span .db-submit .db-medium,
+#bdc_shareButtons .db-wrapper span .db-dugg .db-medium,
+#bdc_shareButtons .db-wrapper .db-ie6 span .db-medium,
+#bdc_shareButtons .db-wrapper .db-ie6 .db-submit .db-medium,
+#bdc_shareButtons .db-wrapper .db-ie6 .db-dugg .db-medium,
+#bdc_shareButtons .db-wrapper span span span.db-compact,
+#bdc_shareButtons .db-wrapper span span .db-compact .db-copy, 
+#bdc_shareButtons .db-wrapper span span .db-compact .db-anchor,
+#bdc_shareButtons .db-wrapper span span .db-compact span.db-count,
+#bdc_shareButtons .db-wrapper span .db-submit .db-compact,
+#bdc_shareButtons .db-wrapper span .db-dugg .db-compact,
+#bdc_shareButtons .db-wrapper .db-ie span .db-compact,
+#bdc_shareButtons .db-wrapper .db-ie6 span .db-compact,
+#bdc_shareButtons .db-wrapper .db-ie6 .db-submit .db-compact,
+#bdc_shareButtons .db-wrapper .db-ie6 .db-dugg .db-compact,
+#bdc_shareButtons a.stbutton,
+#bdc_shareButtons .stframe,
+#bdc_shareButtons .stclose,
+#bdc_shareButtons div.stbutton.vertical,
+#bdc_shareButtons div.stbutton.vertical div.stoverlay,
+#bdc_shareButtons div.stbutton.vertical img {
+		  width:auto;
+		  height:auto;
+		  color:#272727;
+		  display:block;
+		  visibility:visible;
+		  text-indent:0;
+		  overflow:hidden;
+		  background:transparent none no-repeat 0 0;
+		  font:normal 11px/125% Arial,Helvetica,Verdana,sans-serif;
+		  text-align:left;
+		  padding:0;
+		  margin:0;
+		  }
+#bdc_shareButtons {font:normal 11px/125% Arial,Helvetica,Verdana,sans-serif;}
+#bdc_shareButtons a:hover {border-bottom:none;}
+#bdc_shareButtons iframe#bdc_facebook {border:none; overflow:hidden; width:189px; height:30px;}
+#bdc_shareButtons ul.share_trio {margin:6px 0 0 0;padding:6px 0;border-top:1px dotted #999;list-style:none;}
+#bdc_shareButtons ul.share_trio li {display:block;margin:0;padding:2px 0 8px;border-bottom:1px dotted #999;}
+#bdc_retweet a.retweet.horiz div, #bdc_shareButtons #bdc_digg .db-wrapper span span .db-compact .db-anchor {float:left;	padding:4px 3px 3px 21px;width:32px;color:#2851A2;text-transform:capitalize;}
+#bdc_retweet a.retweet.horiz:hover div,#bdc_shareButtons #bdc_digg:hover .db-wrapper span span .db-compact .db-anchor,#bdc_shareButtons #bdc_other a:hover {text-decoration:underline;}
+#bdc_retweet a.retweet.horiz strong,#bdc_shareButtons #bdc_digg .db-wrapper span span .db-compact span.db-count {float:right;font-weight:normal;color:#333;padding:4px 0 3px;width:133px;text-align:left;}
+#bdc_retweet a.retweet {font-size:11px;color:#2851A2;}
+#bdc_retweet a.retweet:hover {color:#002878;border-bottom:none;}
+#bdc_retweet a.retweet.horiz strong {}
+#bdc_retweet a.retweet.horiz strong .clicks {/* font-weight:bold; */}
+#bdc_retweet a.retweet.horiz strong.zero {font-size:11px;}
+#bdc_retweet a.retweet.horiz {background:transparent url('//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icons/twitter.png') no-repeat; padding:2px 0 2px 18px;}
+#bdc_retweet #tweetCount {padding-left:5px; color:#000}
+#bdc_retweet a.retweet:hover #tweetCount {text-decoration:none;}
+#bdc_shareButtons #bdc_other {padding-top:5px;}
+#bdc_shareButtons #bdc_other a {float:left;margin-right:8px;padding:4px 8px 2px 20px;}
+#bdc_shareButtons #bdc_other .etaf {background:url('//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icon_blue_email.gif') no-repeat scroll 0 3px transparent;}
+#bdc_shareButtons #bdc_other #ck_facebook {background:url('//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icons/facebook.png') no-repeat scroll 0 2px transparent;}
+#bdc_shareButtons #bdc_other #ck_twitter {background:url('//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icons/twitter.png') no-repeat scroll 0 2px transparent;}
+#bdc_shareButtons #bdc_other #ck_digg {background:url('//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icons/digg.png') no-repeat scroll 0 3px transparent;}
+#bdc_shareButtons #bdc_other #ck_ybuzz {background:url('//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icons/yahoobuzz.png') no-repeat scroll 0 2px transparent;}
+#bdc_shareButtons #bdc_other #ck_sharethis {background:url('//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icons/sharethis.png') no-repeat scroll 0 2px transparent;}
+#bdc_other .relatedYahooB, #bdc_other .relatedShareThis {display:block; float:left;}
+#bdc_other .relatedShareThis {margin-left:20px;}
+#bdc_shareButtons #bdc_other .relatedShareThis a.stbutton {padding:0 8px 2px 20px;}
+#bdc_shareButtons #bdc_other .relatedYahooB a {margin:0; padding:0;}
+#bdc_shareButtons ul.share_trio #bdc_other {border-bottom:none;}
+ul#artShareTools li#shareComments a#commentCount {font-weight:normal; font-size:inherit; line-height:inherit; background:url("//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icon_blue_comments_round.gif") no-repeat 1px 0 transparent; padding:0 0 2px 19px;}
+#sharetoolContainer #shareEmail {display:none;}
+#bdc_shareButtons .db-wrapper span span .db-compact .db-copy {display:none;}
+#bdc_shareButtons #bdc_digg .db-wrapper span span .db-compact .db-anchor {background:url('//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icons/digg.png') no-repeat scroll 0 3px transparent;}
+#bdc_shareButtons ul.share_trio #bdc_digg {display:none;}
+#relatedContent .outset {margin:0; padding:0;}
+/* Stub Styles */
+.dangerDanger {line-height:19px; background: url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/bgcom_alerticon_stub.png) no-repeat; padding-left:30px; font-weight:bold; font-size:12px; color:#464646; font-family:Arial; padding-top:2px; margin:10px 0;}
+#globeSubBox {width:539px; border-top: 3px solid #b7cdff; background-color: #ebf4fb; font-family: Arial, Helevtica, sans-serif; font-size:12px;}
+#globeSubBox #subCont {margin-bottom:10px; padding:10px 0 0 10px;}
+#globeSubBox .leftButtons {float:left; padding: 10px; border-right: 1px dotted #3F5F9C; width: 249px}
+#globeSubBox .rightButtons {float:right; margin:10px; width: 249px}
+#globeSubBox .rightButtons h4, #globeSubBox .leftButtons h4 {margin-bottom:10px; font-size: 15px;}
+a.subButton:hover, a.subButton:link, a.subButton:visited. {color:#fff; font-family: arial; font-weight:bold; font-size:12px; text-decoration:none; width:100px; display:block; text-align:center; background-color:#2952a2; line-height:21px}
+#bgcomLogo {margin:0 auto; display:block; text-align:center; padding:10px 0;}
+
+/* 
+*	Article styles for Boston.com 
+*	in Methode
+* = = = = = = = = = = = = = = = = = = = =
+*/
+/* 
+* = = = = = = = = = = = = = = = = = = = =
+*	Text Size
+* = = = = = = = = = = = = = = = = = = = =
+*/
+.article-text-size { 
+	float:right;
+}
+.article-text-size span{ 
+	float:left;
+}
+.article #Col1 #headTools #tools .article-text-size ul{
+	float:right;
+}
+.article-text-size ul li{
+	float:left;
+}
+.article-text-size ul li span{
+	display:block;
+	width:16px;
+	height:16px;
+	margin:0 0 0 5px;
+	background-color:#3f5f9c;
+	font:bold 14px arial;
+	color:#fff;
+	text-align:center;
+	cursor:pointer;
+}
+.article-text-size ul li span:hover{
+	background-color:#203C73;
+}
+#articleGraphs p{
+	margin:0 0 1em 0;	
+}
+/* 
+* = = = = = = = = = = = = = = = = = = = =
+*	Movie Reviews
+* = = = = = = = = = = = = = = = = = = = =
+*/
+.rating-summary dl {
+	font-family: arial;
+	font-size: 12px;
+}
+.rating-summary dt {
+	font-weight: bold;
+	float: left;
+	clear: left;
+	margin-right: 3px;
+}
+.rating-summary .break {
+	word-wrap: break-word;
+}
+/* 
+* = = = = = = = = = = = = = = = = = = = =
+*	Outbrain Links
+* = = = = = = = = = = = = = = = = = = = =
+*/
+.OUTBRAIN {
+	font-family:Arial,Helvetica,Verdana,sans-serif;
+	clear: both;
+}
+/* Dynamically loaded container */
+.ob_dual_container {
+	border-top:1px dotted #3E5F9D;
+	padding:18px 0;
+	margin:16px 0 0 0;
+}
+/* Left Column */
+.SB_2 .ob_dual_left {
+	padding-left: 0 !important;	
+}
+/* Right Column */
+.SB_2 .ob_dual_right {
+	padding-left: 4% !important;	
+}
+/* Column Headers */
+.OUTBRAIN .ob_org_header,
+.OUTBRAIN .ob_ads_header{
+	font-weight:bold;
+}
+/* Link Lists */
+.OUTBRAIN ul {
+	font-size: 13px;
+	line-height: 16px;
+	padding-top: 10px;
+}
+.OUTBRAIN li {
+	margin-bottom: 10px;	
+}
+.OUTBRAIN ul a {
+	font-weight: bold;
+}
+.OUTBRAIN ul span{
+	font-size: 11px;
+	font-style: italic;
+	color: #999;
+}
+/* 'Sponsored Links' link */
+.ob_what a {
+	font-size: 11px;
+	color: #999;
+}
+/* 
+* = = = = = = = = = = = = = = = = = = = =
+*	Taboola Well
+* = = = = = = = = = = = = = = = = = = = =
+*/
+.trc_rbox_container {
+	border-top: 1px dotted #3E5F9D;
+	padding-top: 13px;
+}
+/* 
+* = = = = = = = = = = = = = = = = = = = =
+*	Article Sidebar
+* = = = = = = = = = = = = = = = = = = = =
+*/
+/* BODY SETUP STYLES */
+/*
+.article #Col1 {width:539px; background-color:#fff; overflow:hidden; float:left;}
+.article #Col2 {width:409px; border-right:none; position:relative; margin:10px 0 0 1px;float: right; overflow: visible;}
+.article #Col3 {display:none;}
+.article #Col2 #Col2L {width:204px;float:left; overflow:hidden;}
+.article #Col2 #Col2R {width:204px;float:left;padding-bottom:10px;}
+.article #Col2Top {margin-left:11px;}
+*/
+.article {
+	background-image:url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/8_6.gif);
+}
+/* 
+* = = = = = = = = = = = = = = = = = = = =
+*	Article Main Column
+* = = = = = = = = = = = = = = = = = = = =
+*/
+#Col1{
+	float:left;
+	width:539px;
+	padding:0 11px 15px 0;
+	position:relative;
+}
+/*	= = = = = = = = = = = = = = = = = = =
+*	BreadCrumbs
+*/
+#articleMasthead .breadcrumb {
+	float:left;
+	padding:3px 0 0 0;
+	font-family:arial;
+	font-size:10px; 
+	font-weight:bold; 
+	color:#999;
+	text-transform:uppercase;
+}
+#articleMasthead .breadcrumb li {
+	display:inline;
+}
+#headTools img.providerlogo { 
+	position:absolute;
+	top:-7px;
+	right:11px;
+}
+/* 
+*	Article Content
+*/
+#articleText {
+	padding:15px 0 0 0;
+	font-family:"Georgia","Times New Roman",Times,serif; 
+	color:#000;
+}
+/* 
+* = = = = = = = = = = = = = = = = = = = =
+*	Article Sidebar
+* = = = = = = = = = = = = = = = = = = = =
+*/
+#Col2{
+	float:left;
+	width:411px;
+	border-bottom:1px dotted #3F5F9C;
+}
+#Col2 .padTop6 {
+	padding-top: 6px;
+}
+#Col2 #rightAd{
+	padding:0 0 15px 0;	
+}
+#Col2 #Col2L {
+	width:204px;
+	float:left; 
+	overflow:hidden;
+}
+#Col2 #Col2R {
+	width:204px;
+	float:left;
+	padding-bottom:10px;
+}
+.article #Col2 .widget{
+	width:399px;
+	padding:15px 0 10px 12px;
+	border-top:1px dotted #3F5F9C;
+	overflow:hidden;
+	clear:both;
+}
+.widget h3.sectionHeader{
+	padding:0 0 10px 0;
+}
+#Col2 .lead-out{
+	padding:5px 0 0 0;
+	font-size:10px;
+	line-height:12px;
+	text-align:right;
+	text-transform:uppercase;
+}
+/* 	= = = = = = = = = = = = = = = = = = =
+*	Facebook Widget 
+*/
+.article #Col2 .widget.facebook{
+	border-top:none;
+	padding-top:0;
+}
+/*	= = = = = = = = = = = = = = = = = = =
+*	Video Carousel Widget
+*/
+.widget.video-carousel .the-carousel{
+	text-align:center;
+}
+.widget.video-carousel .carousel-links{
+	float:right;
+}
+.widget.video-carousel .carousel-links li{
+	float:left;
+	padding-left:5px;
+}
+.widget.video-carousel .carousel-links li.first{
+	border-right:1px solid #666;
+	padding-right:5px;
+}
+/*	= = = = = = = = = = = = = = = = = = = 
+*	Twitter Widget
+*/
+.article .twtr-widget {
+	margin-bottom: 10px;
+}
+
+.breakingNewsHedBold .linklistInline{padding-top:10px; }
+.breakingNewsHedBold .linklistInline li{display:inline;}
+/*** TWITTER WIDGET ON AE ARTICLES **/
+
+
+
+/*	= = = = = = = = = = = = = = = = = = = 
+*	Inside B.com Widget + Ad 
+*/
+.article #Col2 .widget.two-col{
+	padding:0;
+}
+.article #Col2 .widget.two-col .left-col{
+	border-right:1px dotted #3F5F9C;
+	overflow:hidden;
+	width:205px;
+	float:left;
+}
+.article #Col2 .widget.two-col .right-col{
+	width:160px;
+	float:left;
+	padding:15px 0 0 24px;
+}
+/*	= = = = = = = = = = = = = = = = = = = 
+*	Most Emailed Widget 
+*/
+.article #Col2 .widget.most-popular h3{
+	margin:0 0 5px 0;
+}
+.article #Col2 .widget.most-popular h3 a{
+	color:#000;
+}
+.article #Col2 .widget.most-popular ol.linklist{
+	list-style-type:decimal;
+	padding:0 0 15px 15px;
+	color:#333;
+	font-weight:bold;
+}
+.article #Col2 .widget.most-popular ol.linklist li{
+	border-bottom:1px dotted #999;
+}
+.article #Col2 .widget.most-popular ol.linklist li a{
+	display:block;
+	padding:8px 5px;
+	font-weight:normal;
+}
+.article #Col2 .widget.most-popular ol.linklist li a:hover{
+	background:#EDEDED;
+}
+.article #Col2 #mEmail .sectionHeader a{background:none !important;}
+
+/*	= = = = = = = = = = = = = = = = = = =
+*	Most Popular 
+*/
+.article #Col2 .widget.most-popular .subSectionHeader{
+	font-size:11px;
+	line-height:18px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:0 0 5px 0;
+}
+.article #Col2 .widget.most-popular .split50 div{
+	width:50%;
+	float:left;
+}
+.article #Col2 .widget.most-popular .split50 ul{
+	color:#999;
+	list-style:disc;
+	padding:0 0 5px 15px;
+	overflow:hidden;
+}
+.article #Col2 .widget.most-popular .split50 li{
+	padding:5px 0;
+}
+/* = = = = = = = = = = = = = = = = = = =
+*	Real Estate Tools 
+*/
+.widget.real-estate-tools {
+	overflow: hidden;
+}
+.widget.real-estate-tools h3{
+	padding-bottom: 10px;
+}
+.widget.real-estate-tools .split50 {
+	padding-bottom: 5px;	
+}
+.widget.real-estate-tools .split50 .aSide {
+	width: 48%;
+	float: left;	
+}
+.widget.real-estate-tools .split50 .bSide {
+	width: 48%;
+	float: right;	
+}
+.widget.real-estate-tools li{
+	border-bottom:1px dotted #3F5F9C;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+/* Search Real Estate Listings */
+.widget.real-estate-search h3{
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+.widget.real-estate-search .tcCentered{
+	text-align: center;
+}
+/* Featured Listings */
+.widget.featured-listings div{
+	text-align: center;	
+}
+/* = = = = = = = = = = = = = = = = = = =
+*	Skinny Ad 
+*/
+#right1{
+	width:100px;
+	float:left;
+}
+
+/* CSS for Inside Boston */
+ul.insideBostonList{
+
+}
+ul.insideBostonList li.insideItem{
+	float:left;
+	margin-top: 10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #ededed; 
+}
+ul.insideBostonList li.insideItem:first-child{
+	margin-top:0;
+}
+ul.insideBostonList li.insideItem:last-child{
+	padding-bottom:0;
+	border-bottom:none;
+}
+ul.insideBostonList li.insideItem img{
+	height: 90px;
+	width: 90px;
+	margin-right:10px;
+
+}
+ul.insideBostonList li.insideItem span.insideType{
+	text-transform: uppercase;
+	color:#a0a0a0;
+
+}
+ul.insideBostonList li.insideItem div.insideTitle{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* Globe Call to Action */
+.globe-teaser {
+	background-color:#eef6e8;
+    clear:both;
+    padding:15px 25px;
+    display:block;
+    margin-bottom:10px;
+}
+.globe-teaser h5 {
+	background-image:url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/bg-logo.png);
+    background-position:0 8px;
+    background-repeat:no-repeat;
+    font: bold 20px/23px arial;
+    padding-left:35px;
+}
+.globe-teaser span, .globe-teaser:hover span {
+	color:#000;
+}
+
+.globe-teaser em {
+	text-transform: uppercase;
+	font-style: normal;
+}
+
+/* Recipe list */
+table.recipe .left, table.recipe .right {
+	float:none;
+}
+table.recipe .left {
+	padding-right:10px; font-weight:bold;
+}
+
+/* From bcom-textsize-default.css */
+body div#articleText, div#fullArtTxt, div.blogText, div#articleGraphs {
+	font-size: 15px;
+	line-height: 21px;
+}

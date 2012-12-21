@@ -1,0 +1,55 @@
+
+.quiz { width: 100%; margin: 40px 0px; }
+
+.quiz h2.title { font-size: 2em; }
+
+.quiz div.description { font-size: 1.2em; margin: 10px 0px; }
+.quiz div.description p { line-height: 1.3em; }
+
+.quiz div.information { font-size: .9em; margin-top: 20px; }
+.quiz div.information div.byline { color: #405E9D; margin-bottom: 5px; }
+.quiz div.information div.extra { color: #4A4A4A; }
+
+
+.quiz li.question h3 { font-weight: normal; font-size: 1.4em; padding: 10px 0px; }
+.quiz li.question div.explanation { display: none; }
+
+.quiz li.answer { min-height: 20px; line-height: 20px; padding-bottom: 12px; margin-bottom: 12px; border-bottom: 1px solid #C9C9C9; }
+.quizzler li.answer { cursor: pointer; }
+.quizzler li.answer div.radio { float: left; height: 20px; width: 20px; background: url('img/white.png'); }
+.quizzler li.answer.checked div.radio { float: left; height: 20px; width: 20px; background: url('img/gray.png'); }
+.quizzler .question.complete li.answer.checked.incorrect div.radio { background: url('img/red.png'); }
+.quizzler .question.complete li.answer.checked.correct div.radio { background: url('img/gray.png'); }
+.quiz li.answer label { cursor: pointer; font-weight: normal; line-height: 20px; font-size: .9em; margin-left: 10px; }
+
+.quizzler .progress { float: right; }
+.quizzler .progress .container { display: none; }
+.quizzler .progress .bar { height: 100%; background: #3C5B9F; }
+.quizzler .progress .summary {}
+.quizzler .progress .summary .total { font-weight: normal; color: #000; font-size: .8em; font-family: Helvetica, Arial, sans-serif; }
+.quizzler .progress .summary .explanation { display: none; }
+
+.quizzler .result { margin-top: 36px; font-size: 1.2em; }
+.quizzler .result .verdict { font-weight: bold; }
+.quizzler .result .explanation { font-family: Georgia, "Times New Roman", Times, serif; }
+.quizzler .result .total { font-weight: bold; font-size: 1.3em; font-family: Helvetica, Arial, sans-serif; color: #A11A20; margin-bottom: 40px; }
+
+.quizzler.complete .result { margin-top: 36px; font-size: 1.2em; padding: 20px; background: #F2F2E7; border: 1px solid #DDDED7; }
+.quizzler.complete .result div.header { font-family: Helvetica, Arial, sans-serif; font-weight: bold; font-size: 1.1em; }
+
+
+
+.quizzler .check { margin-top: 96px; }
+.quizzler .next { margin-top: 30px; }
+.quizzler .repeat { float: right; margin-right: 20px; margin-top: 20px;}
+
+.quizzler .share { margin-top: 60px; width: 40%;}
+.quizzler .share div.command { font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; font-size: .6em; font-weight: normal; margin-bottom: 0px; }
+
+.quizzler .button { text-transform: uppercase; font-family: Helvetica, Arial, sans-serif; font-weight: normal; font-size: .6em; color: #000; background: #EDEDED; width: 140px; padding: 5px; text-align: center; }
+.quizzler .button.enabled { cursor: pointer; background: #979797; color: #FFF; }
+
+/* Degrade appropriately */
+.quiz li.answer div.radio { display: none; }
+.quizzler li.answer div.radio { display: block; }
+.quizzler li.answer input { display: none; }

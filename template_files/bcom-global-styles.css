@@ -1,0 +1,1300 @@
+/*
+*	Global styles for Boston.com in Methode
+* 
+* = = = = = = = = = = = = = = = = = = = =
+*	Element Styles
+* = = = = = = = = = = = = = = = = = = = =
+*/
+body{
+	padding:20px 0;
+	background-color:#fff;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px;
+}
+h1.page-title{
+	font-size:24px;
+	line-height:25px;
+	padding:0 0 10px 0;
+}
+h2{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18px;
+	line-height:22px;
+	font-weight:bold;
+	padding:0 0 5px 0;
+}
+h3 {
+	font-size: 17px;
+	line-height: 19px;
+	text-transform: none;
+	font-weight: bold;
+}
+h3.sectionHeader,
+h3.section-header{
+	font-size: 15px;
+	font-weight:bold;
+	text-transform: uppercase;
+	line-height: 17px;
+}
+h2.hed-section.fn.org{
+	font-size: 12px;
+	font-weight:bold;
+	text-transform: uppercase;
+	line-height: 16px;
+}
+p{
+	margin:1em 0;
+}
+a, a:link, 
+a:visited {
+	color: #2851A2;
+	text-decoration: none;
+	cursor:pointer;
+}
+a:hover {
+	color: #002878;
+	border-bottom:1px dotted #002878;
+}
+img {
+	border:0;
+}
+table, tbody, tr, td {
+	font-size:12px; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+b, 
+strong {
+	font-weight: bold;
+}
+i,
+em {
+	font-style: italic;
+}
+/* 
+* = = = = = = = = = = = = = = = = = = = =
+*	Helper Classes
+* = = = = = = = = = = = = = = = = = = = =
+*/
+.cf{
+	clear:both;
+}
+.hideMe {
+	display:none;
+	visibility:hidden;
+}
+.render-error {
+	display:none; 
+	height:0;
+}
+.bold {
+	font-weight:bold;
+}
+a.img:hover{
+	border-bottom:none;
+}
+.overline{
+	font-size:10px; 
+	line-height:11px; 
+	margin-bottom:2px; 
+	color:#272727; 
+	letter-spacing:.07em; 
+	text-transform:uppercase; 
+	font-family:Arial, Helvetica, sans-serif;
+}
+.leadIn{
+	font-family:arial;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #666;
+	font-size: 11px;
+	line-height: 18px;
+}
+/* 
+* = = = = = = = = = = = = = = = = = = = =
+*	Layout Styles
+* = = = = = = = = = = = = = = = = = = = =
+*/
+#container { 
+	width:961px;
+	padding:0 10px 10px;
+	margin:0 auto;
+	background:#fff;
+	border:1px dotted #3F5F9C;
+	border-top:none;
+	border-bottom:none;
+	position:relative;
+}
+#content{
+	padding:15px 0 0 0;;
+}
+#col-1{
+	float:left;
+	width:539px;
+}
+#col-2{
+	float:left;
+	width:399px;
+	padding:0 0 10px 21px;
+}
+/*
+#Col1{
+	float:left;
+	width:539px
+}
+#Col2{
+	float:right;
+	width:409px;
+}
+*/
+/* 
+= = = = = = = = = = = = = = = = = = = =
+*	Masthead 
+= = = = = = = = = = = = = = = = = = = =
+*/
+
+header#masthead {
+  padding-top: 10px;
+  margin-top:0;
+  margin-left:0;
+  border-top: 2px solid #006;
+}
+.bcom_logo a {
+  background: url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/bcom_logo_internal.png) no-repeat;
+  text-indent: -999px;
+  display: block;
+  width: 163px;
+  height: 41px;
+}
+#masthead .promo {
+  margin-bottom: 5px;
+}
+.masthead-login {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  margin-right: 10px;
+}
+.masthead-login a {
+  text-decoration: none;
+}
+.mini-nav {
+  width:100%;
+  margin-bottom: 10px;
+  float: right;
+  clear: right;
+}
+.masthead-search .masthead-links {
+  height: 25px;
+}
+.masthead-search .masthead-links li {
+  float: left;
+  padding-right: 4px;
+}
+.masthead-search .masthead-links li a {
+  color: #474747;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.mini-nav .masthead-search {
+  width: 213px;
+  float: left;
+}
+.masthead-search #masthead-form input {float:left;}
+#bostonDeals {
+  float: right;
+  display: block;
+  position: relative;
+  margin:0 0 10px 0;
+  font-family: Georgia, Times, Serif;
+  font-size: 12px;
+  line-height: 23px;
+}
+.bostonDealsHeader {
+  display:block;
+  float:left;
+  background:URL(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/boston_deals_internal.png) no-repeat;
+  height:20px;
+  width:109px;
+  margin-right:6px;
+}
+#bdeals{
+  max-width:650px; 
+  color: #535353; 
+  font-family: Georgia, Times, Serif; 
+  margin:0; 
+  text-align: right;
+}																			    
+#bdeals .getdeal {
+  margin-left:5px;
+  font-family:arial;
+}
+.mini-nav .advertisement {
+  width: 728px;
+  height: 90px;
+  float: left;
+  margin: 0 0 0 20px;
+}
+.mini-nav #masthead-form{
+	padding:0;	
+}
+.mini-nav .masthead-input {
+  border: 1px #CCC solid;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  color: #AAA;
+  height: 21px;
+  position: relative;
+  top: 1px;
+  width: 168px;
+}
+.mini-nav .masthead-button {
+  background: #EDEDED url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/search_icon_hp.png) no-repeat center;
+  border: 1px #CCC solid;
+  border-left: none;
+  text-indent: -9999px;
+  height: 23px;
+  width: 27px;
+  position: relative;
+  left: -3px;
+  top:1px;
+  line-height:0; /* IE6 Text-Indent Fix */
+}
+/* 
+= = = = = = = = = = = = = = = = = = = =
+*	Global Nav 
+= = = = = = = = = = = = = = = = = = = =
+*/
+#primary {
+	clear:both;
+	width:100%;
+	height:31px;
+	position:relative;
+	overflow:hidden;
+	border-bottom: solid 1px #006;
+}
+#primary li.section-nav,
+#primary li.classified-nav {
+	float:left;
+	overflow:hidden;
+}
+#primary li.classified-nav {
+	border-left:1px dotted #fff;
+	position:absolute;
+	right:0;
+}
+li.section-nav li,
+li.classified-nav li {
+	float:left;
+	border-right:1px dotted #fff;
+}
+li.section-nav li.travel,
+li.classified-nav li.realestate {
+	border:none;
+}
+li.section-nav li a,
+li.classified-nav li a {
+	display:block;
+	padding: 12px 0 7px 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #203C73;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align:center;
+}
+li.section-nav li a:hover,
+li.classified-nav li a:hover {
+	border:none;
+}
+/* Nav Item Widths :-\ */
+#primary li.home a{
+	width:52px;	
+}
+#primary li.globe a{
+	width:114px;	
+}
+#primary li.news a{
+	width:52px;	
+}
+#primary li.yourtown a{
+	width:90px;	
+}
+#primary li.business a{
+	width:78px;	
+}
+#primary li.sports a{
+	width:65px;	
+}
+#primary li.lifestyle a{
+	width:79px;
+}
+#primary li.ae a{
+	width:42px;
+}
+#primary li.things a{
+	width:101px;
+}
+#primary li.travel a{
+	width:64px;
+}
+#primary li.cars a{
+	width:56px;
+}
+#primary li.jobs a{
+	width:53px;
+}
+#primary li.realestate a{
+	width:103px;
+}
+/* Secondary Nav */
+#secondary {
+	clear:both;
+	height:28px;
+	background: #E5E5E5;
+	overflow:hidden;
+}
+#secondary li {
+	float:left;
+}
+#secondary li a {
+	display:block;
+	padding: 8px 6px;
+	color: #464646;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+#secondary li a:hover, #secondary li.active a {
+  	border-bottom:none;
+  	color:#000;
+}
+#secondary li.active a {
+	font-weight:bold;
+  	color:#000;
+}
+#secondary li.active {
+	border:none;
+}
+/* Nav Backgrounds */
+#primary {
+  background: #89c3eb; /* Old browsers */
+  background: -moz-linear-gradient(top,  #89c3eb 0%, #c8e0f4 4%, #d5ebfb 18%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#89c3eb), color-stop(4%,#c8e0f4), color-stop(18%,#d5ebfb)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #89c3eb 0%,#c8e0f4 4%,#d5ebfb 18%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #89c3eb 0%,#c8e0f4 4%,#d5ebfb 18%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #89c3eb 0%,#c8e0f4 4%,#d5ebfb 18%); /* IE10+ */
+  background: linear-gradient(top,  #89c3eb 0%,#c8e0f4 4%,#d5ebfb 18%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#89c3eb', endColorstr='#d5ebfb',GradientType=0 ); /* IE6-9 */
+}
+#primary .classified-nav {
+  background: #5faddd; /* Old browsers */
+  background: -moz-linear-gradient(top,  #5faddd 0%, #b8e1fc 3%, #86b5e8 99%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5faddd), color-stop(3%,#b8e1fc), color-stop(99%,#86b5e8)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #5faddd 0%,#b8e1fc 3%,#86b5e8 99%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #5faddd 0%,#b8e1fc 3%,#86b5e8 99%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #5faddd 0%,#b8e1fc 3%,#86b5e8 99%); /* IE10+ */
+  background: linear-gradient(top,  #5faddd 0%,#b8e1fc 3%,#86b5e8 99%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5faddd', endColorstr='#86b5e8',GradientType=0 ); /* IE6-9 */
+}
+#primary li.section-nav li a:hover, 
+#primary li.section-nav li.active a,
+#primary li.classified-nav li a:hover,
+#primary li.classified-nav li.active a  {
+	background: #3F5F9C; /* Old browsers */
+	background: -moz-linear-gradient(top,  #304978 0%, #355084 6%, #3f5f9c 22%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#304978), color-stop(6%,#355084), color-stop(22%,#3f5f9c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #304978 0%,#355084 6%,#3f5f9c 22%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #304978 0%,#355084 6%,#3f5f9c 22%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #304978 0%,#355084 6%,#3f5f9c 22%); /* IE10+ */
+	background: linear-gradient(top,  #304978 0%,#355084 6%,#3f5f9c 22%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#304978', endColorstr='#3f5f9c',GradientType=0 ); /* IE6-9 */
+  	color: #fff;
+  	text-shadow:0 1px 0 #223353;
+}
+
+/* 
+= = = = = = = = = = = = = = = = = = = =
+*	Footer 
+= = = = = = = = = = = = = = = = = = = =
+*/
+
+footer {
+	padding:0;
+	background:#E5E5E5;
+	color:#464646;
+	text-align:center;
+}
+footer .primary {
+	padding:5px 0;
+	background:#fff;
+	border-top:1px dotted #3f5f9c;
+	border-bottom:1px dotted #3f5f9c;
+}
+footer .secondary {
+	padding:4px 0;
+	border-bottom:1px dotted #3f5f9c;
+}
+footer .secondary nav {
+	padding:2px 0;
+}
+footer li {
+	display:inline-block;
+	padding:0 1px 0 4px;
+	border-left:1px solid #bbb;
+}
+.ie6 footer li, .ie7 footer li {
+	display:inline;
+	zoom:1;
+	padding:0 4px;
+}
+footer li.first-child {
+	border:none;
+}
+footer .secondary li.first-child {
+	text-transform:uppercase;
+}
+footer .secondary a {
+	color:#464646;
+}
+/* Sub-Footer Ad */
+#bottom-banner {
+	background:#fff;
+}
+#bottom-banner .advertisement {
+	padding:15px 0 5px 0;	
+}
+/* 
+* = = = = = = = = = = = = = = = = = = = =
+*	Inside Boston.com
+* = = = = = = = = = = = = = = = = = = = =
+*/
+#inside-bcom{
+	clear:both;
+	padding:20px 0 25px;
+	border-top:4px solid #256099;
+	overflow:hidden;
+	font-weight:bold;
+	line-height:12px;
+	zoom:1;
+}
+#inside-bcom h4{
+	font-size:11px;
+	line-height:18px;
+	color:#666;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#inside-bcom h3.aside-heading{
+	color:#000;
+	font-size:14px;
+	line-height:16px;
+	text-transform:uppercase;
+}
+#inside-bcom img{
+	border:1px solid #989898;
+}
+#inside-bcom a:hover{
+	border-bottom:none;
+}
+#inside-bcom .featured li{
+	float:left;
+	width:207px;
+	line-height:12px;
+}
+#inside-bcom .featured p{
+	line-height:14px
+}
+#inside-bcom .featured a{
+	display:block;
+	padding:15px 13px;
+}
+#inside-bcom .featured a:hover{
+	background:#B7DCFF;
+}
+#inside-bcom .plus{
+	line-height:14px;
+	float:left;
+	padding:15px 0 0 10px;
+}
+#inside-bcom .plus ul{
+	padding:3px 0 0 16px;
+	list-style:disc;
+	color:#00529e;
+}
+
+#Col2 #inside-bcom h3.sectionHeader{
+	text-transform:uppercase;	
+}
+
+/* 
+* = = = = = = = = = = = = = = = = = = = =
+*	RIGHT RAILS
+* = = = = = = = = = = = = = = = = = = = =
+*/
+
+/** SPACERS **/
+.dotted1px{
+	height:1px;
+	width:auto;
+	border-top:1px dotted #3E5F9D;
+	margin:6px 0;
+}
+.dotted4px{
+	height:7px;
+	width:auto;
+	border-bottom:4px solid #3F5F9C;
+	margin:6px 0 16px 0;
+}
+
+/** Centered stuff **/
+.tcCenter,
+.tcCentered{
+	text-align:center;
+}
+
+/** Take 2 reviews/podcast **/
+table.splitOpenTable{
+	border:0px;
+	border-collapse:collapse;
+	vertical-align:inherit;
+}
+
+table.splitOpenTable td{
+	padding:0;
+	vertical-align:top;
+}
+table.splitOpenTable td.bSide{
+	padding-left:10px;
+}
+
+
+ul.link-list {
+	line-height:20px;
+}
+
+ul.link-list li {	
+	line-height:14px;
+	font-size: 10px;
+	padding-bottom:4px;
+	list-style-type: disc;
+	color:#999;
+	margin-bottom:0px;
+}
+
+.link-list li a {
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.splitOpenTable .linklistInline{
+	display:inline-block;
+	padding-top:6px;
+}
+
+/** Current releases **/
+#Col2 .linklistNoBullets li{
+	line-height:14px;
+	padding-bottom:4px;
+}
+
+#Col2 h3.sectionHeader a{
+	color:black;
+	text-decoration:none;
+	background:transparent url(http://cache.boston.com/universal/site_graphics/caret_h3_trans.gif) no-repeat right 1px;
+	padding-right:16px;
+	border:0;
+	}
+
+/** Movie search widget **/
+div#movieSearch{
+	background-color:#EBF4FB;
+	border-bottom:1px dotted #3F5F9C;
+	border-top:1px dotted #3F5F9C;
+	margin:0;
+	padding:7px;
+	text-align:left;
+	position:relative;
+}
+
+/** Blue Twitter widget **/
+.ltBlueBox{
+	border:1px solid #B7CDFF;
+	background-color:#EBF4FB;
+}
+.padAll10{
+	padding:10px;
+}
+#twitter_div h3.sectionHeader { background: url(http://cache.boston.com/_webdesignready/redesign/common/twitter/widget/images/tweetLogo_blue.gif) no-repeat 0% 0%; height: 15px; padding: 5px 0 5px 35px; }
+ul#twitter_update_list { background: #fff; padding: 5px 5px; list-style: none; margin: 10px 0; height: 150px !important; overflow: auto !important; position: relative; /* added by Tito 05.27 to fix IE bug */ }
+ul#twitter_update_list li { display:block; font:normal 13px/17px Georgia, Times, Times New Roman, sans-serif; color: #272727; height:auto; min-height:1em; padding:6px 7px; border-bottom:1px dotted #999999; }
+ul#twitter_update_list li:hover { background: #ededed; }
+ul#twitter_update_list li a { font-family: Arial, Helvetica, Verdana, sans-serif; }
+#twitter_div .small { position: static; /* added by Tito 05.27 to fix IE bug */ }
+#twitter_div .leadOut { padding-top: 5px; }
+
+/** INSIDE BCOM **/
+
+#Col2 #inside-bcom.thin{
+	width:205px;
+	float:left;
+	border-top:none;
+	padding:0;
+}
+#Col2 #inside-bcom.thin h3{
+	padding:15px 0 5px 12px
+}
+#inside-bcom.thin .featured{
+	padding-bottom:10px;
+}
+#inside-bcom.thin .featured li{
+	float:none;
+	width:100%;
+}
+#inside-bcom.thin .featured a{
+	padding:6px 12px 6px 12px;
+}
+#inside-bcom.thin .plus{
+	width:100%;
+	border-top:1px dotted #3F5F9C;
+	padding:10px 0 12px 12px;
+}
+/* 
+* = = = = = = = = = = = = = = = = = = = =
+*	Inside Boston.com ( For Bonzai Markup )
+* = = = = = = = = = = = = = = = = = = = =
+*/
+/* INSIDE BOSTON.COM STYLES */
+#insideBcom .insideContent {margin:0; padding: 10px 0;}
+#insideBcom {margin:10px 0; background-color:#ebf4fb;}
+ul.insideBcomList {margin:0; padding:0;list-style-type:none;background-color:#ebf4fb; overflow:hidden; z-index:100;}
+.insideBcomList li:hover {background-color:#b7dcff;}
+.insideBcomList li.plusLI:hover {background-color:#ebf4fb;}
+.insideBcomList li.plusLI * {background-color:#ebf4fb;}
+.insideContent a {display:block;  padding:0 12px 0 12px;}
+.insideContent a:hover {border-bottom:none; color:#2851A2;}
+.insideBcomList img {width:179px; height:100px; padding-bottom:0px;border:0;margin-bottom: 4px;}
+#insideBcom .caption {color: #3E5F9D; font-size:12px; font-weight:bold;}
+#insideBcom a:hover .caption { color: #002878; }
+#insideBcom a:hover .leadIn,
+#insideBcom a:hover .subSectionHeader { color: #333; }
+ul.plusLinks {overflow:hidden; margin:0; padding:0;}
+
+ul.plusLinks a {border:0; font-weight:bold;}
+#insideBcom #ic5 {display:none;}
+/* Article */
+.article #Col2 #insideBcom {background-color:#ebf4fb;margin:0;}
+.article #Col2 .insideBcomList {margin:0; padding:0;list-style-type:none;background-color:#ebf4fb;}
+.article #Col2 .insideBcomList li {overflow:hidden; margin:0; padding: 8px 0;} 
+.insideBcomList li:hover {background-color:#b7dcff;}
+.article #Col2 .insideBcomList img {width:179px;height:100px;padding-bottom:0px;}
+.article #Col2 .overline a:hover {border-bottom: none;}
+.article #Col2 li.plusLI {margin:0 12px 20px;}
+.article #Col2 ul.plusLinks {margin:0;padding:0;}
+.article #Col2 ul.plusLinks li {list-style-type:none; display:inline;padding:0px; margin:0; line-height:16px; height:auto;}
+.article #Col2 ul.plusLinks a {border:0;}
+.article #Col2 li.plusLI li.listPipe { padding: 0 2px 0 0; color: #272727;}
+.article #Col2 .insideBcomList li:hover ul.plusLinks { background-color:transparent;}
+.article #Col2 .insideBcomList li:hover .leadIn,
+.article #Col2 .insideBcomList li:hover .subSectionHeader { color: #333; }
+.article #Col2 .insideBcomList li:hover ul.plusLinks .leadIn, .insideBcomList li:hover ul.plusLinks .subSectionHeader  {color:#666;}
+.article #Col2 .insideBcomList li:hover .caption a { color: #002878; }
+
+/* 
+* = = = = = = = = = = = = = = = = = = = =
+*	Share Tools - Need to be cleaned up
+* = = = = = = = = = = = = = = = = = = = =
+*/
+#sharetoolContainer {font-size: 11px; clear:both; padding:0 0 10px 0}
+#sharetoolContainer ul {height: 20px; padding:5px 0 10px;}
+#sharetoolContainer ul li {border-top: medium none !important; display: block; float: left; list-style: none outside none; margin:0 4px 0 0; padding: 0px 0px 0;}
+#sharetoolContainer .etaf {
+    background:url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/email_btn_text.png) top left no-repeat;
+    display:block;
+    font-size:0;
+    height:22px;
+    width:50px;
+}
+#sharetoolContainer .recommendbutton {border:none; overflow:hidden; width:102px; height:24px; display:block; background:url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/recommendbutton.png) top left no-repeat; text-indent:-9999px;}
+
+/* SHAREIFY COUNTER FOR SHARETOOLS */
+.share_button {float:left;display:block;text-align: center;margin:0;padding:0;position: relative;cursor: pointer;}
+.share_button a {text-decoration: none;}
+.shareify_div {float:left;margin:0;padding: 0;}
+.shareify_div img { border:0;padding:0;margin:0;width:60px;height:22px;}
+.shareify_count {background-image:url('//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/share_fbarrow.png');background-position:left center;background-repeat:no-repeat;display:inline-block;height:20px;margin: 0 0 0 5px;padding: 0 0 0 3px;width:30px;}
+.shareify_count_number {background: #ECEEF5;border: 1px solid #CAD4E7;border-radius: 4px; -moz-border-radius: 4px;-webkit-border-radius: 4px;height:17px;padding-top:3px;position:relative;width: 25px;
+/* text */
+color:#000;font-family:sans-serif;font-size:11px;text-decoration:none;}
+
+/* END of new additions for design changes - 10/08 */
+#bdc_emailWidget { width: auto; position:absolute; margin: 0 ;	  border: 0;	  padding: 24px 0  ; display: none;   height: auto;  overflow: visible; z-index: 1000000000; /*top: 18px;  left: 0px; */ 	 filter: alpha(opacity=97); /* internet explorer */ -khtml-opacity: 0.97;      /* khtml, old safari */ -moz-opacity: 0.97;       /* mozilla, netscape */ opacity: 0.97;           /* fx, safari, opera */ }
+#bdc_emailWidget .innerContainer { background: #ededed; height: auto; width: 346px;  border-width: 0 4px 4px 4px;   border-color: #272727;  border-style: solid;  }
+#bdc_emailWidget .titleBar { height: 20px; padding: 10px ; background:#272727; color: #fff; width:330px;  }
+#bdc_emailWidget .titleBar h3 { margin: 0; float: left; color: #fff;		 }
+#bdc_emailWidget .titleBar a#closeWindow_etaf { float: right; background: #fff url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/etaf/closeWindow.gif) no-repeat 100% 100%; height: 21px; width: 21px; display: block; }
+#bdc_emailWidget .titleBar a#closeWindow_etaf:hover { background: #fff url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/etaf/closeWindow.gif) no-repeat 100% 0%; border-bottom: none; cursor: pointer;}
+/* ETAF Form elements */
+#bdc_emailWidget form { padding: 10px; margin:0;  width: 325px;  height: auto;  }
+#bdc_emailWidget label { display: block; margin-bottom: 3px; font: bold 11px/13px Arial, Helvetica, Verdana, sans-serif; float: left; }
+#bdc_emailWidget label em { line-height:13px; padding:0 0 0 5px; font-weight: normal; }
+#bdc_emailWidget input,
+#bdc_emailWidget textarea { padding: 5px; color: #000; font: normal 12px/15px Arial, Helvetica, Verdana, sans-serif; width: 97%; margin-bottom: 10px; border: 1px solid #666; clear: both; }
+#bdc_emailWidget textarea { margin-bottom: 25px; overflow:auto;	 }
+#bdc_emailWidget textarea#personalMessage { height: 60px; }
+#bdc_emailWidget input#recipient_email { color: #666; }
+#bdc_emailWidget input.form-button { width: 75px; float: right; color: #fff; font-weight: bold; border: 1px solid #2851A2; height: 26px; padding-top: 3px; background: transparent url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/button_stretch.gif) repeat scroll 0 0 ; }
+#bdc_emailWidget input.form-button:hover { cursor: pointer; }
+#bdc_emailWidget input.error { border: 2px solid #d2232a; padding: 4px; }
+#bdc_emailWidget input.noerr { border: 1px solid #666;  padding: 5px; }
+#bdc_emailWidget .errorMessage { font: bold 11px/13px Arial, Helvetica, Verdana, sans-serif; color: #d2232a;	 float: right; margin-bottom: 3px; visibility: hidden; }
+/* EMTOF Pointers */
+#headTools #tools #bdc_emailWidget #pointer_top,
+#headTools #tools #bdc_emailWidget #pointer_bottom,
+#pointer_top, #pointer_bottom{ position: absolute; height: 17px; width: 24px; float: left; display: block; border:0 none; z-index: 1000;  background-color: #fff;  overflow: visible;   }
+#bdc_emailWidget img#pointer_top {  top: 7px;  }
+
+/* Sending article */
+#bdc_emailWidget	.sendingArticle { width: 100%; margin:30% 0; text-align: center;   background-color: #EEEEEE;  display: none; }
+#bdc_emailWidget	.sendingArticle h4 { font: normal 18px/32px Georgia, Times, "Times New Roman", serif; }
+.blogarticle #Col1 #headTools #tools #bdc_emailWidget	.sendingArticle img { border: 0; height: 16px; width: 16px; }
+#bdc_EMTOF_sent {display: none; }
+
+/* Share Tools
+====================================== */
+
+/* Horizontal */
+
+.ETAF.horizontal {
+	height:20px;
+	list-style-type:none;
+	margin:16px auto 20px;
+	padding:0;
+	}
+
+.ETAF.horizontal li {
+	display:inline;
+	}
+
+.ETAF.horizontal li a {
+	float:left;
+	border-right:solid 1px #999;
+	margin-right:10px;
+	padding:3px 10px 2px 20px;
+	font-size:11px;
+	background:transparent url() no-repeat 0 0;
+	}
+
+.ETAF.horizontal li a:hover {
+	border-bottom:none;
+	text-decoration:underline;
+	}
+
+.ETAF.horizontal .etaf {
+	background-image:url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icon_blue_email.gif);
+	background-position: 0 4px;
+	}
+
+.ETAF.horizontal #ck_facebook {
+	background-image:url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icons/facebook.png);
+	background-position:0 3px;
+	}
+
+.ETAF.horizontal #ck_twitter {
+	background-image:url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icons/twitter.png);
+	background-position:0 2px;
+	}
+
+.ETAF.horizontal #ck_digg {
+	background-image:url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icons/digg.png);
+	background-position:0 3px;
+	padding-left:23px;
+	}
+
+.ETAF.horizontal #ck_ybuzz {
+	background-image:url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icons/yahoobuzz.png);
+	background-position:0 2px;
+	padding-bottom:1px;
+	padding-left:23px;
+	}
+
+.ETAF.horizontal #ck_sharethis {
+	background-image:url(//c.o0bc.com/rw/SysConfig/WebPortal/Boston/Framework/images/site_graphics/icons/sharethis.png);
+	background-position:0 2px;
+	padding-bottom:1px;
+	padding-left:23px;
+	border-right:none;
+	}
+/* Billboard Ad */
+#billboardad { /* #billboardAd | bcom_global_styles.css */
+	position: absolute;
+	width: 959px;
+	z-index: 10;
+}
+div.breakingNewsHedBold {font-weight:bold; font-family:Arial; line-height:14px; font-size:12px; color:#000;}
+.padTop4 { 
+	padding-top: 4px; 
+}
+/* 
+= = = = = = = = = = = = = = = = = = = =
+*	Advertisements 
+= = = = = = = = = = = = = = = = = = = =
+*/
+.ad-flag {
+	font-family: verdana, arial, sans-serif;
+	font-size: 9px;
+	text-align: center;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding-bottom:5px;
+}
+.advertisement{
+	text-align: center;
+}
+#adCENTRAL .adContainer{
+	width:300px;
+	margin:0 auto;	
+}
+#adintro{
+	position:absolute; width:959px; z-index:10;
+}
+#adbillboard{ 
+	position:relative; width:959px; z-index:10;
+}
+/* Sponsor Ads */
+#sponsor-ads{
+	overflow:hidden;
+	width:100%;
+	clear:both;
+}
+.story #sponsor-ads{
+	padding:30px 0 0 0;
+}
+#sponsor-ads .advertisement{
+	width:139px;
+	float:left;
+	margin:0 10px 0 0;
+	padding:0 0 20px 0;
+}
+/*
+*	= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+*	CSS for Boston.com Tease Wells
+* 	= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+*/
+/* Tease Container */
+.tease{
+	font-size:12px;
+	overflow:hidden;
+	padding:20px 0;
+}
+.tease .split{
+	width:50%;
+	float:left;
+}
+/* Tease Lists */
+.tease ul li{
+	margin:0 0 15px 0;
+}
+.tease ul.bulleted{
+	list-style:disc;
+	color:#999;
+	padding:0 0 0 15px;
+	line-height:16px;
+}
+.tease .split ul.bulleted{
+	padding:0 0 0 20px;
+}
+.tease ul.bulleted li{
+	margin:0 0 7px 0;
+}
+/* Tease Headers */
+.tease h1{
+	font-size:24px;
+	font-weight:bold;
+	line-height:25px;
+}
+.tease h2{
+	padding:0;
+	font-size:17px;
+	font-weight:bold;
+	line-height:19px;
+}
+.tease h3{
+	font-size:12px;
+	font-weight:bold;
+	line-height:16px;
+}
+.tease h3 .subject{
+	font-size:11px;
+	color:#666;
+	text-transform:uppercase;
+}
+/* Tease Content */
+.tease p{
+	font-family:times;
+	margin:0;
+	padding:3px 0 0 0;
+	line-height:16px;
+}
+.tease .source{
+	font-family:arial;
+	font-size:10px;
+	color:#464646;
+	font-weight:normal;
+	float:none;
+	
+}
+/*
+*	= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+*	CSS for Boston.com Cars Widget
+* 	= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+*/
+.widget h3.section-header {
+	padding-bottom: 10px;
+}
+.widget.cars form {
+	background: #ECF4FF;
+	border: 1px solid #B9DBFE;
+	padding: 10px 10px 3px 10px;	
+}
+.widget.cars div {
+	padding-bottom: 7px;	
+}
+.widget.cars label {
+	font-weight: bold;
+}
+.widget.cars .select label {
+	display: block;
+	padding-bottom: 3px;
+}
+.widget.cars .select select {
+	width: 100%;
+	padding: 5px 0;
+}
+.widget.cars select {
+	border: 1px solid #aaa;
+}
+#cars-search-zip {
+	border: 1px solid #aaa;
+	padding: 2px;
+	width: 50px;
+	margin-right: 5px;
+}
+.widget.cars .instruct {
+	display: block;
+	padding-top: 2px;
+	font-size: 10px;
+	color: #444;
+}
+.widget.cars .submit {
+	padding-top: 5px;
+}
+input.cars-button {
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+	padding: 3px 20px 5px 20px;
+	border: 1px solid #7792cd;
+	background: #2d5197; /* Old browsers */
+	background: url(../_images/link.gif) no-repeat 3px 0 #2d5197;
+	background: -moz-linear-gradient(top,  #728cca 0%, #2d5197 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#728cca), color-stop(100%,#2d5197)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #728cca 0%,#2d5197 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #728cca 0%,#2d5197 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #728cca 0%,#2d5197 100%); /* IE10+ */
+	background: linear-gradient(top,  #728cca 0%,#2d5197 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#728cca', endColorstr='#2d5197',GradientType=0 ); /* IE6-9 */
+	cursor: pointer;
+}
+
+/*
+*	= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+*	CSS for Boston.com PollDaddy: Base styles
+* 	= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+*/
+
+.pds-box {
+	background: #fff;
+	color: #4e4e4e;
+	font-family:Arial,Helvetica,Verdana,sans-serif;
+	margin:10px 0;
+	}
+
+.pds-box a:hover {
+	border-bottom:0;
+	}
+
+.pds-box A {
+	outline: none;
+	}
+
+.pds-clear {
+	display: block;
+	clear: both;
+	}
+
+.pds-box-outer {
+	}
+
+.pds-question-top {
+	font-size:14px;
+	line-height: 120%;
+	color: #000;
+	font-weight: bold;
+	padding: 5px 0px 15px 0px;
+	position:relative;
+	}
+
+
+/* Answers */
+
+.pds-answer {
+	padding: 0px 0px 10px 0px;
+	border-top: 1px solid #ccc;
+	}
+
+.pds-answer label {
+	color: #333;
+	font-size: 13px;
+	line-height: 150%;
+	position: relative;
+	}
+
+.pds-answer-group {
+	display: block;
+	padding: 8px 0px 8px 0px;
+	border-bottom:1px solid #ccc;
+	}
+
+.pds-answer-group:hover {
+	color:#000;
+	background-color:#efefef;
+	}
+
+.pds-answer-group BR {
+	display: none;
+	}
+
+.pds-answer-input {
+	display: block;
+	float:left;
+	width: 25px;
+	}
+
+.pds-input-label {
+	display: block;
+	cursor: pointer;
+	}
+
+.pds-answer-span {
+	display:table-cell;
+	}
+
+.pds-answer-other {
+	padding: 0px 0px 0px 10px;
+	}
+
+.pds-textfield {
+	background: #FFF;
+	border: 1px solid #d1d1d1;
+	font-size: 12px;
+	padding: 2px;
+	width: 150px;
+	}
+
+.pds-answer-other BR {
+	display: none;
+	}
+
+.pds-other-label {
+	display: block;
+	float:left;
+	cursor: pointer;
+	}
+
+.pds-feedback-group {
+	display: block;
+	padding: 8px 0px 8px 0px;
+	}
+
+.pds-feedback-label {
+	display: block;
+	padding: 0px 0px 5px 0px;
+	}
+
+.pds-feedback-label:after {
+	clear:both;
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	}
+
+.pds-feedback-label {
+	}
+
+* html .pds-feedback-label {
+	height:1%;
+	}
+
+.pds-feedback-per {
+	font-weight: bold;
+	float:left;
+	width:35px;
+	}
+
+.pds-answer-text {
+	float:right;
+	width:89%;
+	}
+
+#Col3L .pds-answer-text,
+.three .pds-answer-text,
+.cols3 .pds-answer-text,
+.relatedBox .pds-answer-text,
+#relatedContent .pds-answer-text,
+.section356 #Col1 .pds-answer-text,
+.section365 #Col1 .pds-answer-text,
+.section113 #Col2 .pds-answer-text {
+	width:72%;
+	}
+
+.cols4 .pds-answer-text {
+	width:86%;
+	}
+
+.pds-feedback-votes {
+	font-weight: normal;
+	font-size:11px;
+	display:none;
+	}
+
+.pds-answer-feedback {
+	height: 14px;
+	border: 1px solid #d1d1d1;
+	background-color: #f1f1f1;
+	position: relative;
+	}
+
+.pds-answer-feedback-bar {
+	font-size: 2px;
+	background: #3478e3;
+	height: 14px;
+	}
+
+/*
+#PDI_feedback2 .pds-answer-feedback-bar {
+	background-color:#d2232a;
+	}
+*/
+
+.pds-vote {
+	padding: 10px 0px;
+	}
+
+.pds-votebutton-outer {
+	text-align:center;
+	}
+
+.pds-vote BR{
+	display: none;
+	}
+
+
+/* Buttons */
+
+a.pds-vote-button,
+a.pds-vote-button-load,
+a.pds-vote-button-load:active,
+a.pds-vote-button-load:visited {
+	border:1px solid #2851a2;
+	background-color:#2851a2;
+	color:#ffffff;
+	padding:3px 0;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	margin:auto;
+	width:110px;
+	display:block;
+	}
+
+a.pds-vote-button:hover {
+	background-color: #002878;
+	border:1px solid #2851a2;
+	color:#fff;
+	}
+
+a.pds-vote-button-load {
+	color: #464646;
+	border-color:#fff;
+	white-space: nowrap;
+	cursor: pointer;
+	background:#fff url(http://cache.boston.com/universal/site_graphics/loader.gif) no-repeat scroll 50% 50%;
+	}
+
+a.pds-vote-button-load:hover {
+	border:1px solid #fff;
+	}
+
+.pds-vote-button-load SPAN{
+	visibility: hidden;
+	}
+
+
+/* Links */
+
+.pds-links {
+	padding: 10px 0px 0px 0px;
+	display: block;
+	text-align: center;
+	}
+
+.pds-links-back {
+	padding: 10px 0px 0px 0px;
+	display: block;
+	text-align: center;
+	}
+
+.pds-share {
+	border-left:1px solid #ccc;
+	}
+
+
+.pds-links A,
+.pds-links-back A  {
+	font-size:11px;
+	color: #2851A2;
+	text-decoration: none;
+	padding: 0px 8px;
+	line-height: 125%;
+	display: inline-block;
+	}
+
+.pds-links A:hover,
+.pds-links-back A:hover {
+	text-decoration: underline;
+	color:#002878;
+	}
+
+.pds-links-back a.pds-comments {
+	display:none;
+	}
+
+.pds-comments SPAN{
+	font-weight: normal;
+	}
+
+.pds-total-votes{
+	padding: 10px 0px 0px 0px;
+	position: relative;
+	font-size:12px;
+	}
+
+.pds-total-votes SPAN{
+	font-weight: bold;
+	}

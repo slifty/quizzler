@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title>Quiz Tool Prototype</title>
+		<link rel="stylesheet" href="styles/base.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="styles/quiz.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<script src="scripts/jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="scripts/quiz.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script type="text/javascript">
+			$(function() {
+				$(".quiz").quiz();
+			});
+		</script>
+	</head>
+	<body>
+		<form class="quiz">
+			<h2 class="title">The First Prototype Quiz!</h2>
+			<div class="description">This is the first quiz of a new era of quizzes.  Bow down to greatness and pay homage to Quizzler, the ultimate manifestation of questions and quizzes.</div>
+			<ul class="questions">
+				<li class="question">
+		 			<h3>What do you think of this question?</h3>
+					<ul>
+						<li class="answer correct"><div class="radio"></div><input type="radio" name="q1" id="q1_1_1" value="1" /><label for="q1_1_1">Answer 1</label></li>
+						<li class="answer incorrect"><div class="radio"></div><input type="radio" name="q1" id="q1_1_2" value="2" /><label for="q1_1_2">Answer 2</label></li>
+						<li class="answer incorrect"><div class="radio"></div><input type="radio" name="q1" id="q1_1_3" value="3" /><label for="q1_1_3">Answer 3</label></li>
+						<li class="answer incorrect"><div class="radio"></div><input type="radio" name="q1" id="q1_1_4" value="4" /><label for="q1_1_4">Answer 4</label></li>
+					</ul>
+				</li>
+				<li class="question">
+		 			<h3>How bout this one?</h3>
+					<ul>
+						<li class="answer incorrect"><input type="radio" name="q2" id="q1_2_1" value="1" /><label for="q1_2_1">Answer 1</label></li>
+						<li class="answer incorrect"><input type="radio" name="q2" id="q1_2_2" value="2" /><label for="q1_2_2">Answer 2</label></li>
+						<li class="answer correct"><input type="radio" name="q2" id="q1_2_3" value="3" /><label for="q1_2_3">Answer 3</label></li>
+						<li class="answer incorrect"><input type="radio" name="q2" id="q1_2_4" value="4" /><label for="q1_2_4">Answer 4</label></li>
+					</ul>
+				</li>
+				<li class="question">
+		 			<h3>Does this question make me look fat?</h3>
+					<ul>
+						<li class="answer incorrect"><input type="radio" name="q3" id="q1_3_1" value="1" /><label for="q1_3_1">Answer 1</label></li>
+						<li class="answer incorrect"><input type="radio" name="q3" id="q1_3_2" value="2" /><label for="q1_3_2">Answer 2</label></li>
+						<li class="answer incorrect"><input type="radio" name="q3" id="q1_3_3" value="3" /><label for="q1_3_3">Answer 3</label></li>
+						<li class="answer correct"><input type="radio" name="q3" id="q1_3_4" value="4" /><label for="q1_3_4">Answer 4</label></li>
+					</ul>
+				</li>
+				<li class="question">
+		 			<h3>How many questions does one person need, anyway?</h3>
+					<ul>
+						<li class="answer correct"><input type="radio" name="q4" id="q1_4_1" value="1" /><label for="q1_4_1">Answer 1</label></li>
+						<li class="answer incorrect"><input type="radio" name="q4" id="q1_4_2" value="2" /><label for="q1_4_2">Answer 2</label></li>
+						<li class="answer incorrect"><input type="radio" name="q4" id="q1_4_3" value="3" /><label for="q1_4_3">Answer 3</label></li>
+						<li class="answer incorrect"><input type="radio" name="q4" id="q1_4_4" value="4" /><label for="q1_4_4">Answer 4</label></li>
+					</ul>
+				</li>
+			</ul>
+		</form>
+	</body>
+</html>
